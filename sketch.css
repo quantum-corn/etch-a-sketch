@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+header {
+    border-bottom: 1px solid;
+}
+
+header, .content, .button, .main{
+    padding: 18px;
+}
+
+.sketch {
+    border: 1px solid;
+}
+
+.row, .content {
+    display: flex;
+}
+
+.cell {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 auto;
+}
